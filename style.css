@@ -59,6 +59,7 @@ nav a:hover {
     padding: 2rem;
     border: var(--cor-secundaria) solid 2px;
     border-radius: 50px 0px 50px 0;
+    var--cor-de-fundo:#11c911
 }
 
 span{
