@@ -4,8 +4,8 @@ async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasRedes = ["Adrianópolis","Palmas",]
-    const quantidadeUsuarios = ["16","8"]
+    const nomeDasRedes = ["Adrianópolis","Palmas","Lapa","Castro","Candoi","Reserva do Iguaçu"]
+    const quantidadeUsuarios = ["16","8","7","6","5","4"]
     const data = [
         {
             x: nomeDasRedes,
@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Redes sociais com mais usuários no mundo',
+            text: 'Número de Municípios',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Nome das redes sociais',
+                text: 'Municípios',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
