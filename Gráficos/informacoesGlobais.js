@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = 'Em 2024, o Paraná possui 68 comunidades quilombolas reconhecidas, distribuídas em 22 municípios.'
+    paragrafo.innerHTML = 'Em 2024, o Paraná possui 68 comunidades quilombolas reconhecidas, distribuídas em 22 municípios.Esses municípios estão entre os que concentram as maiores populaçõese número de localidades quilombolas no estado.'
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
