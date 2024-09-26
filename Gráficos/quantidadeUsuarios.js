@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Número de Municípios',
+            text: 'Municúpios com maior número de comunidades quilombolas no Paraná',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Bilhões de usuários ativos',
+                text: 'Número de Municípios',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
