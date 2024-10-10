@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Municípios',
+                text: 'Ano',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Número de Municípios',
+                text: 'Bilhões de Dolares',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
