@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Tabela Fipe',
+                text: 'Modelos',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Modelos',
+                text: 'Tabela Fipe',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
